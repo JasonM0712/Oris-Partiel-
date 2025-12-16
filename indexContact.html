@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oris Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/loo5zng.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navBarre">
+                <img class="navImg" src="css/img/logo.png" alt="logo Oris">
+                <div class="navButton">
+                    <li><a href="indexAccueil.html" class="navButton">Accueil</a> </li>
+                    <li><a href="IndexCasque.html" class="navButton">Casque</a></li>
+                    <li><a href="IndexEcouteur.html" class="navButton">Ecouteur</a></li>
+                    <li><a href="IndexLunette.html" class="navButton">Lunette</a></li>
+                    <li><a href="indexContact.html" class="navContact">Contact</a></li>
+                    <li><a href="IndexPanier.html" class="navButton">Panier</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <h1 class="titleAccueil">Contactez-nous</h1>
+    <div class="ContactFormulaire">   
+        <form action="#" method="post">
+            <label for="NumTel">Numéro de téléphone :</label>
+            <input type="tel" id="NumTel" name="NumTel" required>
+
+            <div class="containerFormPrenomNom">
+                <label for="Prenom">Prénom :</label>
+                <input type="text" id="prenom" name="Prenom" required>
+
+                <label for="Nom">Nom :</label>
+                <input type="text" id="nom" name="Nom" required>
+            </div>
+
+            <label for="Email">Email :</label>
+            <input type="email" id="Email" name="Email" required>
+
+            <label for="Message">Message</label>
+            <textarea id="Message" name="Message"  required></textarea>
+
+            <button  class="buttonFormulaire" type="submit">Envoyer le message ></button>
+
+        </form>
+    </div>
+    
+</body>
+</html>

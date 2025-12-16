@@ -1,0 +1,38 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navBarre {
+    display: flex;
+    text-decoration: none;
+    list-style: none;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    z-index: 1;
+    text-align: center;
+    border-bottom: 2px solid black ;
+}
+
+.navButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0%;
+    padding-left: 30px;
+}
+
+.navImg{
+    padding-left: 50px;
+    height: 80px;
+}
+
+
+

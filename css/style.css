@@ -1,13 +1,24 @@
 *,
 *::after,
-*::before{
+*::before {
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
 
+.titleAccueil {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 130px;
+    font-family: "futura-pt-bold", sans-serif;
+    padding-bottom: 60px;
+}
+
 .navBarre {
     display: flex;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
     text-decoration: none;
     list-style: none;
     position: fixed;
@@ -15,24 +26,151 @@
     width: 100%;
     margin: 0%;
     padding: 0%;
+    padding-right: 30px;
     z-index: 1;
     text-align: center;
-    border-bottom: 2px solid black ;
+    border-bottom: 2px solid black;
 }
 
-.navButton{
+.navButton {
     display: flex;
     justify-content: center;
     align-items: center;
     text-decoration: none;
     margin: 0%;
-    padding-left: 30px;
+    padding-left: 60px;
+    color: black;
+    font-family: "futura-pt-bold", sans-serif;
 }
 
-.navImg{
+.navContact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #49CAE4;
+    color: white;
+    padding: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 30px;
+    border-radius: 30px;
+}
+
+.navImg {
     padding-left: 50px;
     height: 80px;
 }
 
+.parallax {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    height: 800px;
+    width: 100%;
+    background-image: url("img/Parallax.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.containerLeftAcceuil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    margin: 0%;
+}
+
+.containerRightAcceuil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+    margin: 0%;
+}
 
 
+.containerImage {
+    display: block;
+    height: 400px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.containerText {
+    display: block;
+    width: 450px;
+    height: 400px;
+}
+
+
+footer {
+    text-align: center;
+    font-family: "futura-pt", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+.acceuilSousTitle {
+    font-family: "futura-pt-bold", sans-serif;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.containerPLeft {
+    font-family: "futura-pt", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.containerTitle{
+    font-size: 40px;
+    font-family: "futura-pt-bold", sans-serif;
+    padding: 10px;
+    padding-left: 0px;
+}
+
+.containerPRight {
+    font-family: "futura-pt", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    padding-right: 0px;
+}
+
+.containerUlRight{
+    font-family: "futura-pt", sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+.containerUlLeft{
+    padding-top: 20px;
+    padding-left: 15px;
+    font-family: "futura-pt", sans-serif;
+    font-size: 18px;
+}
+
+.containerTitleRight{
+    font-size: 40px;
+    font-family: "futura-pt-bold", sans-serif;
+    padding: 10px;
+}
+
+.logoFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+.imgFooter{
+    margin-top: 50px;
+    height: 50px;
+}

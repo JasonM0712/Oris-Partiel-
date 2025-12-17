@@ -324,6 +324,30 @@ footer {
     padding:10px
 }
 
+.parallaxContact{
+    padding: 40px;
+    display: flex;
+    margin: 0;
+    height: 800px;
+    width: 100%;
+    background-image: url("img/nsm.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-bottom: 50px;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.titleContact{
+    font-size: 80px;
+    text-align: center;
+    padding-top: 130px;
+    font-family: "futura-pt-bold", sans-serif;
+    padding-bottom: 60px;
+}
+
 /* 
 #425066 opacity 40%
 backgroundcolor F3F4EE */

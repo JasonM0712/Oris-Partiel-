@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="https://use.typekit.net/loo5zng.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -23,31 +25,53 @@
             </ul>
         </nav>
     </header>
+    <div>
+        <img src="" alt="">
+    </div>
 
-    <h1 class="titleAccueil">Contactez-nous</h1>
-    <div class="ContactFormulaire">   
-        <form action="#" method="post">
-            <label for="NumTel">Numéro de téléphone :</label>
-            <input type="tel" id="NumTel" name="NumTel" required>
+    <h1 class="titleAccueil"> NOUS CONTACTEZ</h1>
+    <div class="ContactFormulaire">
+        <form class="containerFormulaire" action="#" method="post">
+            <div class="MSPFormulaire">
+                <div class="containerNumForm">
+                    <select class="selectIndicatif" name="numeroTéléphone" id="numero">
+                        <option value="france">+33</option>
+                        <option value="usa">+1</option>
+                        <option value="chine">+86</option>
+                        <option value="russie">+7</option>
+                        <option value="turquie">+90</option>
+                    </select>
+                    <input class="numPhoneForm" type="tel" id="NumTel" name="NumTel" placeholder="Numero de Tel."
+                        required>
+                </div>
+                <div class="containerFormPrenomNom">
 
-            <div class="containerFormPrenomNom">
-                <label for="Prenom">Prénom :</label>
-                <input type="text" id="prenom" name="Prenom" required>
+                    <input class="containerFormName" type="text" id="prenom" name="Prenom" placeholder="Prenom"
+                        required>
 
-                <label for="Nom">Nom :</label>
-                <input type="text" id="nom" name="Nom" required>
+                    <input type="text" id="nom" name="Nom" placeholder="Nom" required>
+                </div>
+                <div>
+                    <input class="formEmail" type="email" id="Email" name="Email" placeholder="Email" required>
+                </div>
+                <div>
+                    <textarea class="formulaireTexte" id="Message" name="Message" placeholder="Votre message"
+                        required></textarea>
+                </div>
+                <div class="containerButtonForm">
+                    <button class="buttonFormulaire" type="submit">Envoyer le message ></button>
+                </div>
             </div>
-
-            <label for="Email">Email :</label>
-            <input type="email" id="Email" name="Email" required>
-
-            <label for="Message">Message</label>
-            <textarea id="Message" name="Message"  required></textarea>
-
-            <button  class="buttonFormulaire" type="submit">Envoyer le message ></button>
-
         </form>
     </div>
-    
+
+    <footer>
+        <p><strong>CONTACT :</strong> tom.consolo@my-digital-school.org / Instagram : @tms_shot / Basé à Metz -
+            déplacements France entière </p>
+        <p>© 2025 TMS industry - Tous les droits réservés. Toute reproduction ou utilisation non autorisée est
+            strictement interdite.</p>
+    </footer>
+
 </body>
+
 </html>

@@ -8,10 +8,12 @@
     <link rel="stylesheet" href="https://use.typekit.net/loo5zng.css">
 </head>
 <body>
-    <header>
+        <header>
         <nav>
             <ul class="navBarre">
-                <img class="navImg" src="css/img/logo.png" alt="logo Oris">
+                <a href="indexAccueil.html">
+                    <img class="navImg" src="css/img/logo.png" alt="logo Oris">
+                </a>
                 <div class="navButton">
                     <li><a href="indexAccueil.html" class="navButton">Accueil</a> </li>
                     <li><a href="IndexCasque.html" class="navButton">Casque</a></li>
@@ -19,7 +21,28 @@
                     <li><a href="IndexLunette.html" class="navButton">Lunette</a></li>
                     <li><a href="indexContact.html" class="navContact">Contact</a></li>
                     <li><a href="IndexPanier.html" class="navButton">Panier</a></li>
-                </div> 
+                </div>
+            </ul>
+        </nav>
+
+        <nav>
+            <ul class="navBarreMobile">
+               
+                <a href="indexAccueil.html">
+                    <img class="navImgMobile" src="css/img/logo.png" alt="logo Oris">
+                </a>
+                <div class="menuBurger">
+                    <img src="css/img/menuBurger.png" alt="menu Burger">
+                </div>
+                <div class="navButtonMobile">
+                    <img class="logoMenuBurger"src="css/img/LogoBlanc.PNG" alt="logo blanc">
+                    <li><a href="indexAccueil.html" class="navButtonMobile">Accueil</a> </li>
+                    <li><a href="IndexCasque.html" class="navButtonMobile">Casque</a></li>
+                    <li><a href="IndexEcouteur.html" class="navButtonMobile">Ecouteur</a></li>
+                    <li><a href="IndexLunette.html" class="navButtonMobile">Lunette</a></li>
+                    <li><a href="indexContact.html" class="navButtonMobile">Contact</a></li>
+                    <li><a href="IndexPanier.html" class="navButtonMobile">Panier</a></li>
+                </div>
             </ul>
         </nav>
     </header>
@@ -27,29 +50,84 @@
 
     </div>
     <h1 class="titleAccueil">VOTRE PANIER</h1>
-
-    <div class="panierArticle">
-        <div class="articleList">
-            <img src="" alt="">
-            <div class="containerTextPanier">
-                <div class="panierTextArticle">
-                    <div class="titlePanier" ></div>
-                    <div class="PriceUnitaire"></div>   
+    <div class="containerPanier">
+        <div class="panierArticle">
+            <div class="articleList">
+                <img class="panierImg"src="css/img/lunette.png" alt="Panier Lunette Oris">
+                <div class="containerTextPanier">
+                    <div class="panierTextArticle">
+                        <div class="titlePanier" >Lunette</div>
+                        <div class="panierInfo">
+                            <div class="PriceUnitaire">329 €</div>
+                            <input class="inputPanier"type="number" placeholder="quantité">
+                        </div>
+                    </div>
+                    <div class="PriceQuantite"> 329 €/qts</div>
                 </div>
-                <button class="add">Ajouter</button>
-                <div class="PriceQuantite"> /qts</div>
-                <button class="remove">Supprimer</button>
-                <input type="number">
+            </div>
+
+            <div class="articleList">
+                <img class="panierImg"src="css/img/lunette.png" alt="Panier Lunette Oris">
+                <div class="containerTextPanier">
+                    <div class="panierTextArticle">
+                        <div class="titlePanier" >Ecouteur</div>
+                        <div class="panierInfo">
+                            <div class="PriceUnitaire">109 €</div>
+                            <input class="inputPanier"type="number" placeholder="quantité">
+                        </div>
+                    </div>
+                    <div class="PriceQuantite"> 109 €/qts</div>
+                </div>
+            </div>
+
+            <div class="articleList">
+                <img class="panierImg"src="css/img/lunette.png" alt="Panier Lunette Oris">
+                <div class="containerTextPanier">
+                    <div class="panierTextArticle">
+                        <div class="titlePanier" >Casque</div>
+                        <div class="panierInfo">
+                            <div class="PriceUnitaire">149 €</div>
+                            <input class="inputPanier"type="number" placeholder="quantité">
+                        </div>
+                    </div>
+                    <div class="PriceQuantite"> 149 €/qts</div>
+                </div>
             </div>
         </div>
-
-        <div class="articleList"></div>
-        <div class="articleList"></div>
+        <div class="containerTotalPanier">
+            <div class="totalPanier">
+                <h2 class="titleTotalPanier">Récapitulatif de la commande</h2>
+                <div class="sousTotalPanier">
+                    <div class="Exp">
+                        <div>Expédition</div>
+                        <div>4 €</div>
+                    </div>
+                    <div class="taxe">
+                        <div>Taxe</div>
+                        <div>2€</div>
+                    </div>
+                    <div class="priceSousTotalPanier">
+                        <div>Sous-total</div>
+                        <div>587 €</div>
+                    </div>
+                </div>
+                <div class="buttonCmd">
+                    <button class="btnCmd">Passer la commande => </button>
+                </div>
+            </div>
+        </div>
     </div>
 
-    
+        <div class="logoFooter">
+            <img class="imgFooter"src="css/img/LogoFooter.PNG" alt="Footer Logo">
+        </div>
 
-
+    <footer>
+        <p><strong>CONTACT :</strong> tom.consolo@my-digital-school.org / Instagram : @tms_shot / Basé à Metz -
+        déplacements France entière </p>
+        <p>© 2025 TMS industry - Tous les droits réservés. Toute reproduction ou utilisation non autorisée est
+            strictement interdite.</p>
+    </footer>
 
     
     

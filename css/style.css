@@ -1,3 +1,5 @@
+/*responsive iphone 14 pro max 430px x 932px*/
+
 *,
 *::after,
 *::before {
@@ -16,6 +18,22 @@ body {
     padding-top: 130px;
     font-family: "futura-pt-bold", sans-serif;
     padding-bottom: 60px;
+}
+
+.CasqueSousTitle {
+    font-family: "futura-pt-bold", sans-serif;
+    font-size: 45px;
+    text-align: center;
+    width: 1200px;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.containerH2Casque {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
 }
 
 .navBarre {
@@ -78,6 +96,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100%;
+}
+
+.parallaxMobile{
+    display: none;
 }
 
 .containerLeftAcceuil {
@@ -348,6 +370,222 @@ footer {
     padding-bottom: 60px;
 }
 
+.navBarreMobile {
+    display: none;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    list-style: none;
+    position: fixed;
+    height: 80px;
+    width: 100%;
+    margin: 0%;
+    padding: 0%;
+    padding-right: 30px;
+    z-index: 1;
+    border-bottom: 2px solid black;
+}
+
+.navButtonMobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 0%;
+    padding-left: 60px;
+    color: white;
+    font-family: "futura-pt-bold", sans-serif;
+    background-color: #49CAE4;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+    position: fixed;
+    top: 80px;
+}
+
+.menuBurger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.menuBurger img {
+    height: 70px;
+    width: 90px;
+}
+
+
+.navImgMobile {
+    padding-left: 50px;
+    height: 80px;
+}
+
+.logoMenuBurger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    height: 80px;
+}
+
+.panierArticle {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.articleList {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    border: 1px solid #425066;
+    border-radius: 25px;
+    width: 900px;
+    height: 150px;
+}
+
+.panierImg {
+    height: 150px;
+    width: 150px;
+    border: 1px solid #425066;
+    border-right: none;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.panierTextArticle {
+    display: flex;
+    flex-direction: column; 
+}
+.panierInfo {
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;
+    gap:30px;
+}
+.titlePanier {
+    font-family: "futura-pt-bold", sans-serif;
+    font-size: 24px;
+  }
+.PriceUnitaire {
+    font-family: "futura-pt-bold", sans-serif;
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #49CAE4;
+}
+.PriceQuantite {
+    display: block;
+    margin-left: 350px;
+    font-family: "futura-pt-bold", sans-serif;
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #425066;
+}
+
+.containerTextPanier {
+    display: flex;
+    width: 750px;
+    padding-left: 20px;
+}
+
+.inputPanier {
+    width: 200px;
+    height: 30px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #425066;
+    margin-bottom: 20px;
+}
+
+.containerTotalPanier {
+    display: flex;
+    justify-content: space-between;
+    font-size: 24px;
+    align-items: center;
+    width: 500px;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #425066;
+    border-radius: 25px;
+}
+
+.titleTotalPanier {
+    font-family: "futura-pt-bold", sans-serif;
+    font-size: 24px;
+}
+
+.sousTotalPanier {
+    display: block;
+    font-family: "futura-pt", sans-serif;
+    font-size: 20px;
+}
+
+.Exp{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    
+}
+
+.taxe{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.priceSousTotalPanier {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+     padding-bottom: 20px;
+}
+
+
+.BannerImg{
+    background-image: url('img/BannerPanier.png');
+    height: 1000px;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.buttonCmd{
+    display: flex;
+    padding-top: 50px;
+    justify-content: center;
+    align-items: center;
+    margin: 0%;
+}
+
+.btnCmd {
+    display: block;
+    text-align: left;
+    background-color: #49CAE4;
+    color: white;
+    border: none;
+    padding: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 400px;
+    font-family: "futura-pt-bold", sans-serif;
+    cursor: pointer;
+}
+
+.containerPanier{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+    
 /* 
 #425066 opacity 40%
 backgroundcolor F3F4EE */
@@ -355,9 +593,15 @@ backgroundcolor F3F4EE */
 @media screen and (max-width: 700px) {
 
     .titleAccueil {
-        font-size: 50px;
+        font-size: 40px;
+        margin: 0% ;
+        padding: 0%;
         padding-top: 100px;
-        padding-bottom: 40px;
+        padding-bottom: 10px;
+        width: 100%;
+    }
+    .acceuilSousTitle {
+        display: none;;
     }
 
     .acceuilSousTitle {
@@ -375,5 +619,153 @@ backgroundcolor F3F4EE */
         margin-bottom: 20px;
     }
 
+    .navBarre{
+        display: none;
+    }
 
+    .navBarreMobile{
+        display: none;
+    }
+
+    .menuBurger img{
+        height: 50px;
+        width: 70px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .navImgMobile{
+        height: 60px;
+        padding-left: 20px;
+    }
+
+    .parallax{
+        display: none;
+    }
+
+    .parallaxMobile{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
+        height: 250px;
+        width: 100%;
+        background-image: url("img/Parallax.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    .containerImage{
+        height: 200px;
+        width: auto;
+        margin :0px;
+        margin-left: 20px;
+        margin-right: 10px;
+        border-radius: 1000px;
+    }
+
+    .containerPRight{
+        width: 180px;
+        height: 300px;
+        font-size: 16px;
+    }
+
+    .containerTitleRight{
+        font-size: 20px;
+        width: 180px;
+    }
+
+    .containerUlRight{
+        padding-top: 10px;
+        font-size: 16px;
+        width: 180px;
+        margin: 0px;
+    } 
+
+    .containerRightAcceuil{
+        padding-top: 20px;
+        height: 650px;
+    }
+
+    .containerTitle{
+        padding-left: 20px;
+        font-size: 20px;
+    } 
+
+    .containerPLeft{
+        width: 170px;
+        height: 300px;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+
+    .containerLeftAcceuil{
+        padding: 0%;
+        padding-top: 20px;
+        height: 650px;
+    }
+
+    .containerUlLeft{
+        font-size: 16px;
+        padding-top: 40px;
+        padding-left: 35px;
+        width: 100%;
+    }
+
+
+
+
+    .logoFooter img{
+        margin-top: 120px;
+        width: 150px;
+        height: 50px;
+    }
+
+    footer{
+        font-size: 10px;
+        width: 360px;
+    }
+
+   .containerLeftAcceuil, .containerRightAcceuil {
+        height: 550px;
+        width: 400px;
+
+    }
+
+    .containerLeftAcceuil{
+        margin-left: 5px;
+    }
+
+    .containerRightAcceuil{
+        margin-top: 40px;
+    }
+
+    .article_title{
+        width: 300px;
+        font-size: 20px;
+    }
+    .article_content ul{
+        width: 300px;
+        font-size: 16px;
+    }
+    .article img{
+        height: 250px;
+        width: 250px;
+    }
+
+    .acceuilSousTitle{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .article{
+        margin-bottom: 50px;
+    }
+
+    .CasqueSousTitle {
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    
 }

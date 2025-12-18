@@ -985,6 +985,15 @@ backgroundcolor F3F4EE */
         width: 300px;
     }
 
+    .navHrefMobile{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        font-size: 20px;
+        color: white;
+
+    }
+
     
 
 

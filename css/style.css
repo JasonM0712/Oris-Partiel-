@@ -98,7 +98,7 @@ body {
     background-size: 100%;
 }
 
-.parallaxMobile{
+.parallaxMobile {
     display: none;
 }
 
@@ -305,17 +305,17 @@ footer {
     border: 1px solid #425066;
 }
 
-.containerFormPrenomNom input{
+.containerFormPrenomNom input {
     border-radius: 10px;
     padding: 10px;
     margin-top: 15px;
-    margin-bottom: 15px ;
+    margin-bottom: 15px;
     width: 285px;
     height: 40px;
     border: 1px solid #425066;
 }
 
-.formEmail{
+.formEmail {
     display: block;
     border-radius: 10px;
     padding: 10px;
@@ -324,7 +324,7 @@ footer {
     border: 1px solid #425066;
 }
 
-.containerFormName{
+.containerFormName {
     margin-left: 0px;
     margin-right: 30px;
 }
@@ -337,16 +337,17 @@ footer {
     width: 600px;
     border-radius: 10px;
 }
-.containerNumForm{
+
+.containerNumForm {
     display: flex;
 }
 
-.selectIndicatif{
+.selectIndicatif {
     border-radius: 15px 0px 0px 15px;
-    padding:10px
+    padding: 10px
 }
 
-.parallaxContact{
+.parallaxContact {
     padding: 40px;
     display: flex;
     margin: 0;
@@ -362,7 +363,8 @@ footer {
     align-items: flex-end;
 
 }
-.titleContact{
+
+.titleContact {
     font-size: 80px;
     text-align: center;
     padding-top: 130px;
@@ -403,6 +405,11 @@ footer {
     position: fixed;
     top: 80px;
 }
+
+.navButtonMobile li {
+    margin-top: 30px;
+    font-size: 24px;
+    }
 
 .menuBurger {
     display: flex;
@@ -445,7 +452,7 @@ footer {
     margin-bottom: 30px;
     border: 1px solid #425066;
     border-radius: 25px;
-    width: 900px;
+    width: 600px;
     height: 150px;
 }
 
@@ -459,27 +466,31 @@ footer {
 
 .panierTextArticle {
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
+
 .panierInfo {
     display: flex;
     flex-direction: column;
     margin-right: 50px;
-    gap:30px;
+    gap: 30px;
 }
+
 .titlePanier {
     font-family: "futura-pt-bold", sans-serif;
     font-size: 24px;
-  }
+}
+
 .PriceUnitaire {
     font-family: "futura-pt-bold", sans-serif;
     font-size: 20px;
     margin-bottom: 10px;
     color: #49CAE4;
 }
+
 .PriceQuantite {
     display: block;
-    margin-left: 350px;
+    margin-left: 100px;
     font-family: "futura-pt-bold", sans-serif;
     font-size: 24px;
     margin-bottom: 10px;
@@ -490,6 +501,14 @@ footer {
     display: flex;
     width: 750px;
     padding-left: 20px;
+}
+
+.titleCart {
+    font-size: 80px;
+    text-align: center;
+    padding-top: 30px;
+    font-family: "futura-pt-bold", sans-serif;
+    padding-bottom: 60px;
 }
 
 .inputPanier {
@@ -525,16 +544,16 @@ footer {
     font-size: 20px;
 }
 
-.Exp{
-    padding-top: 15px;
+.Exp {
+    padding-top: 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     padding-bottom: 20px;
-    
+
 }
 
-.taxe{
+.taxe {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -545,19 +564,20 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-     padding-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 
-.BannerImg{
+.BannerImg {
     background-image: url('img/BannerPanier.png');
     height: 1000px;
     width: 100%;
     background-size: cover;
+    background-position: center;
     background-repeat: no-repeat;
 }
 
-.buttonCmd{
+.buttonCmd {
     display: flex;
     padding-top: 50px;
     justify-content: center;
@@ -579,29 +599,38 @@ footer {
     cursor: pointer;
 }
 
-.containerPanier{
+.containerPanier {
     display: flex;
     justify-content: space-around;
     align-items: center;
 
 }
-    
+
+
 /* 
 #425066 opacity 40%
 backgroundcolor F3F4EE */
 
 @media screen and (max-width: 700px) {
 
+    body,
+    html {
+        overflow-x: hidden;
+    }
+
+
     .titleAccueil {
         font-size: 40px;
-        margin: 0% ;
+        margin: 0%;
         padding: 0%;
         padding-top: 100px;
         padding-bottom: 10px;
         width: 100%;
     }
+
     .acceuilSousTitle {
-        display: none;;
+        display: none;
+        ;
     }
 
     .acceuilSousTitle {
@@ -619,31 +648,31 @@ backgroundcolor F3F4EE */
         margin-bottom: 20px;
     }
 
-    .navBarre{
+    .navBarre {
         display: none;
     }
 
-    .navBarreMobile{
-        display: none;
+    .navBarreMobile {
+        display: flex;
     }
 
-    .menuBurger img{
+    .menuBurger img {
         height: 50px;
         width: 70px;
         display: flex;
         flex-direction: column;
     }
 
-    .navImgMobile{
+    .navImgMobile {
         height: 60px;
         padding-left: 20px;
     }
 
-    .parallax{
+    .parallax {
         display: none;
     }
 
-    .parallaxMobile{
+    .parallaxMobile {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -655,57 +684,57 @@ backgroundcolor F3F4EE */
         background-size: 100%;
     }
 
-    .containerImage{
+    .containerImage {
         height: 200px;
         width: auto;
-        margin :0px;
+        margin: 0px;
         margin-left: 20px;
         margin-right: 10px;
         border-radius: 1000px;
     }
 
-    .containerPRight{
+    .containerPRight {
         width: 180px;
         height: 300px;
         font-size: 16px;
     }
 
-    .containerTitleRight{
+    .containerTitleRight {
         font-size: 20px;
         width: 180px;
     }
 
-    .containerUlRight{
+    .containerUlRight {
         padding-top: 10px;
         font-size: 16px;
         width: 180px;
         margin: 0px;
-    } 
+    }
 
-    .containerRightAcceuil{
+    .containerRightAcceuil {
         padding-top: 20px;
         height: 650px;
     }
 
-    .containerTitle{
+    .containerTitle {
         padding-left: 20px;
         font-size: 20px;
-    } 
+    }
 
-    .containerPLeft{
+    .containerPLeft {
         width: 170px;
         height: 300px;
         padding-left: 20px;
         font-size: 16px;
     }
 
-    .containerLeftAcceuil{
+    .containerLeftAcceuil {
         padding: 0%;
         padding-top: 20px;
         height: 650px;
     }
 
-    .containerUlLeft{
+    .containerUlLeft {
         font-size: 16px;
         padding-top: 40px;
         padding-left: 35px;
@@ -713,59 +742,251 @@ backgroundcolor F3F4EE */
     }
 
 
+    .logoFooter {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0%;
 
+    }
 
-    .logoFooter img{
+    .logoFooter img {
         margin-top: 120px;
         width: 150px;
         height: 50px;
     }
 
-    footer{
+    footer {
         font-size: 10px;
-        width: 360px;
+
     }
 
-   .containerLeftAcceuil, .containerRightAcceuil {
+    .containerLeftAcceuil,
+    .containerRightAcceuil {
         height: 550px;
         width: 400px;
 
     }
 
-    .containerLeftAcceuil{
+    .containerLeftAcceuil {
         margin-left: 5px;
     }
 
-    .containerRightAcceuil{
+    .containerRightAcceuil {
         margin-top: 40px;
     }
 
-    .article_title{
+    .article_title {
         width: 300px;
         font-size: 20px;
     }
-    .article_content ul{
+
+    .article_content ul {
         width: 300px;
         font-size: 16px;
     }
-    .article img{
-        height: 250px;
-        width: 250px;
-    }
 
-    .acceuilSousTitle{
+
+    .acceuilSousTitle {
         font-size: 30px;
         margin-bottom: 30px;
     }
 
-    .article{
+    .article {
+        width: 400px;
         margin-bottom: 50px;
     }
 
+    .article_title {
+        width: 200px;
+        font-size: 15px;
+    }
+
+
+    .article_content {
+        width: 300px;
+    }
+
+    .containerH2Casque {
+        text-align: center;
+
+    }
+
+    .titleAccueil {
+
+        text-align: center;
+        font-size: 18px;
+    }
+
+
     .CasqueSousTitle {
-        font-size: 30px;
+        font-size: 15px;
         margin-bottom: 30px;
     }
 
+    .titleCart {
+        font-size: 20px;
+        padding-top: 20px;
+        padding-bottom: 30px;
+    }
+
+    .panierArticle {
+        margin-top: 50px;
+        width: 350px;
+    }
+
+    .articleList {
+        width: 300px;
+        height: 100px;
+        border-radius: 10px;
+    }
+
+
+    .panierImg {
+        height: 100px;
+        width: 100px;
+        border-radius: 10px 0px 0px 10px;
+
+    }
+
+    .BannerImg {
+        height: 200px;
+        width: 430px;
+    }
+
+    .containerPanier {
+        flex-direction: column;
+        width: 400px;
+        padding-left: 10px;
+    }
+
+    .PriceQuantite {
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    .panierTextArticle {
+        height: 50px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .article img {
+        height: 150px;
+        width: 150px;
+    }
+
+    .titlePanier {
+        font-size: 20px;
+    }
+
+    .PriceUnitaire {
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+
+    .inputPanier {
+        width: 100px;
+        height: 5px;
+        font-size: 15px;
+        border-radius: 5px;
+        margin-bottom: 3px;
+    }
+
+    .inputPanier input {
+        height: 5px;
+    }
+
+    .inputPanier::placeholder {
+        font-size: 15px;
+    }
+
+    .panierInfo {
+        height: 20px;
+        margin-right: 10px;
+        gap: 0px;
+    }
+
+    .containerTextPanier {
+        width: 250px;
+        height: 50px;
+        padding: 0px;
+        padding-left: 10px;
+        margin: 0px;
+    }
+
+    .containerTotalPanier {
+        flex-direction: column;
+        height: 300px;
+        width: 300px;
+        padding: 10px;
+        margin-top: 20px;
+    }
+
+    .buttonCmd {
+        padding-top: 0px;
+    }
+
+    .btnCmd {
+        width: 250px;
+        font-size: 15px;
+        padding: 10px;
+    }
+
+    .parallaxContact {
+        height: 400px;
+        background-attachment: scroll;
+    }
+
+    h1.titleContact {
+        font-size: 25px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .ContactFormulaire {
+        margin-left: 12px;
+        width: 350px;
+    }
+
+    .MSPFormulaire {
+        padding: 20px;
+        width: 350px;
+    }
+
+    .ContactFormulaire textarea {
+        height: 80px;
+        width: 300px;
+    }
+
+    .containerNumForm{
+        width: 300px;
+    }
+
+    .containerFormPrenomNom{
+        flex-direction: column;
+        text-align: center;
+        align-items: normal;
+        width: 300px;
+    }
+
+    .containerFormPrenomNom input{
+        width: 300px;
+        margin-right: 0px;
+    }
+
+
+
+    .formEmail{
+        width: 300px;
+    }
+
+    .ContactFormName{
+        width: 300px;
+    }
+
     
+
+
+
 }
